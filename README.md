@@ -1,6 +1,6 @@
 # NASA-APOD
 
-Using HTML, CSS and JS to call NASA's Astronomy Photo of the Day API
+Using HTML, CSS and JS to call NASA's Astronomy Picture of the Day API
 
 ## Set up instructions
 
