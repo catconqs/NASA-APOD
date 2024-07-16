@@ -6,7 +6,7 @@ Using HTML, CSS and JS to call NASA's Astronomy Photo of the Day API
 
 If using `git clone`, please undertake the following updates to make sure this works on your local machine:
 - update config copy.js to __config.js__
-- obtain your personal API key from NASA (here)[https://api.nasa.gov/]
+- obtain your personal API key from NASA [here](https://api.nasa.gov/)
 - update the config file with your API key
 - launching the HTML file in the browser should then show the various Astronomy Picture of the Day posts.
 
