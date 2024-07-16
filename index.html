@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>APOD</title>
+  </head>
+  <body>
+    <h1>NASA's Astronomy Picture of the Day</h1>
+    <div id="intro-text">
+      Every day, since mid-June 1995, NASA have published an astronomical photo
+      or video, with some accompanying text. Use the date-picker below to time
+      travel and see some celestial sights. Enjoy! 🪐
+    </div>
+
+    <form id="form">
+      <label for="astro-date">Choose a date:</label>
+      <input type="date" id="astro-date" name="astro-date" />
+      <br />
+      <button id="transport-btn" type="submit">transport me 🚀</button>
+    </form>
+
+    <section>
+      <h2 id="media-title"></h2>
+      <p id="date-selected"></p>
+
+      <img src="" id="media" />
+
+      <p id="image-credit-copyright"></p>
+
+      <div id="accompanying-text"></div>
+    </section>
+    <hr />
+    <footer id="cc-footer">
+      Built by CC ♡ find me on
+      <a href="https://github.com/catconqs">GitHub</a>.
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+  
+</html>
