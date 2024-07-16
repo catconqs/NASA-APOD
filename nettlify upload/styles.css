@@ -1,0 +1,60 @@
+#form {
+  margin-top: 15px;
+}
+
+h1 {
+  width: 95%;
+}
+
+body {
+  background-image: linear-gradient(to right, #e4dce9 1px, transparent 1px),
+    linear-gradient(to bottom, #e4dce9 1px, transparent 1px);
+  background-size: 2rem 2rem;
+  background-position: center center;
+
+  text-align: center;
+  font-family: "Trispace", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 110;
+}
+
+
+#intro-text {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button,
+#astro-date {
+  padding: 5px 12px;
+  background-color: white;
+  margin-top: 10px;
+  font-family: "Trispace", sans-serif;
+  border-radius: 4px;
+  border-color: blueviolet;
+}
+
+button:hover,
+#astro-date:hover {
+  box-shadow: 5px 5px #888888;
+}
+
+#media {
+  width: 85%;
+  border-radius: 3px;
+}
+
+#accompanying-text {
+  margin: 20px 30px;
+}
+
+#image-credit-copyright {
+  font-size: 10pt;
+}
+
+footer {
+  font-size: 10px;
+}
